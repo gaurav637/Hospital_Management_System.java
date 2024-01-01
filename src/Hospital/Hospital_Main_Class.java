@@ -21,6 +21,14 @@ public class Hospital_Main_Class {
             About_hospital_Class ahc = new About_hospital_Class(connection,scanner);
             ServicesOfHospital sfh = new ServicesOfHospital(connection,scanner);
             Admin_Class ac = new Admin_Class(connection,scanner);
+            Patient pt = new Patient(connection,scanner);
+            Nurse nr = new Nurse(connection,scanner);
+            Room rm = new Room(connection,scanner);
+            Appointment ap = new Appointment(connection,scanner);
+            Profit pr = new Profit(connection,scanner);
+            operation op = new operation(connection,scanner);
+            Birth_Death bd = new Birth_Death(connection,scanner);
+            medicine md = new medicine(connection,scanner);
             Doctors ds = new Doctors(connection,scanner);
             System.out.println();
             System.out.println();
@@ -91,10 +99,15 @@ public class Hospital_Main_Class {
             while(true){
                 System.out.println();
                 System.out.println("1.Scope of Services");
-                System.out.println("2.doctor");
-                System.out.println("4.doctor");
-                System.out.println("5.doctor");
-                System.out.println("6.doctor");
+                System.out.println("2.Appointment");
+                System.out.println("3.doctor");
+                System.out.println("4.patient");
+                System.out.println("6.nurse");
+                System.out.println("7.medicine");
+                System.out.println("8.Room");
+                System.out.println("9.operation");
+                System.out.println("10.profit");
+                System.out.println("11.Birth_Death");
                 System.out.println();
                 System.out.println("Enter any option ->");
                 System.out.println();
