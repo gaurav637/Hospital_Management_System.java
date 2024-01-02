@@ -10,4 +10,6 @@ public class Profit {
         this.connection = connection;
         this.scanner = scanner;
     }
+
+    public void all
 }

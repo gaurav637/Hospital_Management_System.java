@@ -119,9 +119,25 @@ public class Hospital_Main_Class {
                     }
                     case 2:{
                         System.out.println();
+                        ap.allAppointment();
+                        break;
+                    }
+                    case 3:{
+                        System.out.println();
                         ds.doctors_class();
                         break;
                     }
+                    case 4:{
+                        System.out.println();
+                        pt.allPatient();
+                        break;
+                    }
+                    case 8:{
+                        System.out.println();
+                        rm.allRoom();
+                        break;
+                    }
+
                 }
             }
 
