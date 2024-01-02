@@ -125,12 +125,6 @@ public class Doctors {
                     System.out.println();
                     break;
                 }
-
-
-
-
-
-
                 case 3:{
                     break;
                 }
