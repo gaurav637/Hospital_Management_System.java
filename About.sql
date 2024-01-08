@@ -1,0 +1,4 @@
+CREATE DATABASE Hospital;
+USE Hospital;
+
+CREATE TABLE 

@@ -1,0 +1,28 @@
+USE Hospital;
+
+CREATE TABLE proffit(
+   Year INT,
+   income_Proffit DOUBLE
+);
+
+INSERT INTO proffit
+(Year,income_Proffit)
+VALUES
+(2010,100000),
+(2011,150000),
+(2012,300000),
+(2013,50000),
+(2014,70000),
+(2015,150000),
+(2016,200000),
+(2017,300000),
+(2018,350000),
+(2019,400000),
+(2020,500000),
+(2021,800000),
+(2022,100000),
+(2032,900000);
+
+SELECT * FROM proffit;
+
+
